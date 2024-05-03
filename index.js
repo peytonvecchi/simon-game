@@ -11,6 +11,13 @@ $(document).on("keydown", () => {
   }
 });
 
+$(document).on("click", () => {
+  if (beginningOfGame == true) {
+    beginningOfGame = false;
+    gameGo();
+  }
+});
+
 // PASS EVENT TO USE 'this.id'
 $(".btn").click((event) => {
 
