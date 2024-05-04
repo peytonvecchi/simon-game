@@ -114,14 +114,14 @@ function gameOver() {
 }
 
 function joanna() {
-  var emojis = ["🩷 🧡 🩷", "🥰 😍 🥰", "🎀 👑 💖", "🍌 🌭 🌯", "✨ 👸🏻 ✨", "☝️🤓", "😘 😘 😘", "❤️ 🫶 ❤️"];
+  var emojis = ["🩷 🧡 🩷", "🥰 😍 🥰", "💖 🎀 💖", "🍌 🌭 🌯", "✨ 👸🏻 ✨", "☝️🤓", "😘 😘 😘", "❤️ 🫶 ❤️"];
 
   $(".btn").addClass("hidden");
 
   let audio = new Audio("./sounds/princess.mp3");
   audio.play();
 
-  $("#level-title").text("Hey ❤️JoJo❤️ 😘 🫶");
+  $("#level-title").text("Hey ❤️JoJo❤️");
   $("#level-title").css("color", "orange");
   $("body").css("background-color", "pink");
   $(".food").removeClass("hidden");
