@@ -118,7 +118,7 @@ function joanna() {
 
   $(".btn").addClass("hidden");
 
-  let audio = new Audio("./sounds/YourLove.mp3");
+  let audio = new Audio("./sounds/princess.mp3");
   audio.play();
 
   $("#level-title").text("Hey ❤️JoJo❤️ 😘 🫶");
